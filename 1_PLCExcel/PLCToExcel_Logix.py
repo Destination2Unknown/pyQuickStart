@@ -1,8 +1,10 @@
 import openpyxl
 from pylogix import PLC
 
+excelFileName = 'tagsLogix.xlsx'
+
 # Open the workbook
-wb = openpyxl.load_workbook('tagsLogix.xlsx')
+wb = openpyxl.load_workbook(excelFileName)
 
 # Select the sheet
 sheet = wb['Sheet1']
@@ -22,7 +24,7 @@ plc.ProcessorSlot = 2
 values = [plc.Read(tag_name).Value for tag_name in tag_names]
 
 ###### Option 2: Multi Read
-values =[t.Value for t in plc.Read(tag_names)]
+values = [t.Value for t in plc.Read(tag_names)]
 
 # Disconnect from the PLC
 plc.Close()
@@ -32,4 +34,4 @@ for i, value in enumerate(values):
     sheet.cell(row=i+2, column=2).value = value
 
 # Save the workbook
-wb.save('tagsLogix.xlsx')
+wb.save(excelFileName)
