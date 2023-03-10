@@ -1,8 +1,10 @@
 import openpyxl
 from asyncua.sync import Client,ua
 
+excelFileName = 'tagsOPC.xlsx'
+
 # Open the workbook
-wb = openpyxl.load_workbook('tagsOPC.xlsx')
+wb = openpyxl.load_workbook(excelFileName)
 
 # Select the sheet
 sheet = wb['Sheet1']
@@ -23,11 +25,11 @@ plc.connect()
 tagNodes = [plc.get_node(t) for t in tag_names]
 tagDataTypes = [t.get_data_type_as_variant_type() for t in tagNodes]
 # UA format values
-tagUA=[ua.DataValue(ua.Variant(v,dt)) for v,dt in list(zip(tag_values,tagDataTypes))]
+tagUA = [ua.DataValue(ua.Variant(v,dt)) for v,dt in list(zip(tag_values,tagDataTypes))]
 
 ###### Option 1: Individual Write
 # Combine Tags with UA format value
-tagsWithValue=list(zip(tagNodes,tagUA))
+tagsWithValue = list(zip(tagNodes,tagUA))
 values = [t.write_value(v) for t,v in tagsWithValue]
 
 ###### Option 2: Multi-Write
