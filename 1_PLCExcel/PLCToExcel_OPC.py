@@ -1,8 +1,10 @@
 import openpyxl
 from asyncua.sync import Client,ua
 
+excelFileName = 'tagsOPC.xlsx'
+
 # Open the workbook
-wb = openpyxl.load_workbook('tagsOPC.xlsx')
+wb = openpyxl.load_workbook(excelFileName)
 
 # Select the sheet
 sheet = wb['Sheet1']
@@ -24,7 +26,7 @@ tag_names = [plc.get_node(t) for t in tag_names]
 values = [t.read_value() for t in tag_names]
 
 ###### Option 2: Multi Read
-values=[v for v in plc.read_values(tag_names)]
+values = [v for v in plc.read_values(tag_names)]
 
 # Disconnect from the PLC
 plc.disconnect()
@@ -34,4 +36,4 @@ for i, value in enumerate(values):
     sheet.cell(row=i+2, column=2).value = value
 
 # Save the workbook
-wb.save('tagsOPC.xlsx')
+wb.save(excelFileName)
