@@ -1,3 +1,0 @@
-pylogix
-asyncua
-ttkthemes
