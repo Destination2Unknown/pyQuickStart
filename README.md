@@ -5,4 +5,4 @@
 * ```PLCToExcel_OPC.py``` -> Read from a PLC to an Excel file via OPC-UA
 ---
 ### 5_TkinterGUI
-* ```tkinterGUI.pyw``` -> Tkinter GUI to read and write to a PLC tag via OPC-UA or EtherNet/IP
+* ```TkinterGUI.pyw``` -> Tkinter GUI to read and write to a PLC tag via OPC-UA or EtherNet/IP
