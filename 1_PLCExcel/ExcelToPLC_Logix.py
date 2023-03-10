@@ -1,8 +1,10 @@
 import openpyxl
 from pylogix import PLC
 
+excelFileName = 'tagsLogix.xlsx'
+
 # Open the workbook
-wb = openpyxl.load_workbook('tagsLogix.xlsx')
+wb = openpyxl.load_workbook(excelFileName)
 
 # Select the sheet
 sheet = wb['Sheet1']
@@ -19,7 +21,7 @@ plc.ProcessorSlot = 2
 plc.SocketTimeout = 2.5
 
 # Combine Tag Name with Tag Values
-tagsWithValue=list(zip(tag_names,tag_values))
+tagsWithValue = list(zip(tag_names,tag_values))
 
 ###### Option 1: Individual Write
 values = [plc.Write(t,v) for t,v in tagsWithValue]
