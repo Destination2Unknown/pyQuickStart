@@ -18,3 +18,7 @@
 ---
 ### 5_TkinterGUI
 * ```TkinterGUI.pyw``` -> Tkinter GUI to read and write to a PLC tag via OPC-UA or EtherNet/IP
+
+![image](https://user-images.githubusercontent.com/92536730/225636224-8bb15bc9-2760-45bb-9006-d22c97f3610b.png)
+
+---
