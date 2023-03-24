@@ -25,6 +25,7 @@
 ### 6_OCR_GUI
 * ```PythonGUI_OCR.pyw``` -> Tkinter GUI to read and write PLC tags via EtherNet/IP with Optical Character Recognition (OCR)
 
-![OCR_GUI](https://user-images.githubusercontent.com/92536730/195994268-7b6202b8-454e-4f15-93a4-208836452090.mp4)
+https://user-images.githubusercontent.com/92536730/195994268-7b6202b8-454e-4f15-93a4-208836452090.mp4
 
 ---
+
