@@ -1,0 +1,4 @@
+ttkthemes
+pylogix
+cv2
+pytesseract
