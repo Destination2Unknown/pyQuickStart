@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web GUI for ControlLogix</title>
+    <script src="{{url_for('static',filename='script.js')}}" defer></script>
+    <link href="../static/style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <button class="button" id="start">Start Motor</button>
+    <button class="button" id="stop">Stop Motor</button>
+    <b id='runTime'>Run Time:</b>
+    <p id='reqStatus'>Ready...</p>
+</body>
+
+</html>
