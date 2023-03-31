@@ -1,3 +1,6 @@
 # 1_PLCExcel
 
-![image](https://user-images.githubusercontent.com/92536730/222282634-0b263db7-ab4c-45c6-8d9a-126f850a1380.png)
+* ```ExcelToPLC_Logix.py``` -> Write from Excel to a Logix PLC via EtherNet/IP
+* ```ExcelToPLC_OPC.py``` -> Write from Excel to a PLC via OPC-UA
+* ```PLCToExcel_Logix.py``` -> Read from a Logix PLC to an Excel file via EtherNet/IP
+* ```PLCToExcel_OPC.py``` -> Read from a PLC to an Excel file via OPC-UA
