@@ -1,4 +1,4 @@
 ttkthemes
 pylogix
-cv2
+opencv-python
 pytesseract
