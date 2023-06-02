@@ -62,7 +62,7 @@ class GUIApp(object):
         # Setup Window
         self.root = ttk.Window()
         self.root.state("zoomed")
-        self.root.title("pyQuickWatch")
+        self.root.title("WatchWindow")
         try:
             style = ttk.Style()
             key = winreg.OpenKey(winreg.HKEY_CURRENT_USER, "Software\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize")
