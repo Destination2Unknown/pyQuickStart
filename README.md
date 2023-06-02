@@ -58,3 +58,10 @@ A Flask Web Server to read and write PLC tags via EtherNet/IP.
 
 https://github.com/Destination2Unknown/pyQuickStart/assets/92536730/ea3a1a5a-13e2-4c0b-9e59-3f1d43ea2d4e
 
+
+---
+### 8_WatchWindow
+A Watch Window to read Logix PLC tags via EtherNet/IP.
+
+https://github.com/Destination2Unknown/pyQuickStart/assets/92536730/e00205d3-6382-4be5-8176-b90460e5e250
+
