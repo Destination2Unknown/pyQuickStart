@@ -8,15 +8,14 @@
 
 * Install Python Extension (in VSCode)
 
-* Use PIP to install required packages:
-
+* Use PIP to install required packages via cmd line:  
     * `pip install pandas`
 
 ### 1_PLCExcel
 
 Excel <-> PLC via Ethernet/IP or OPC-UA.
 
-https://user-images.githubusercontent.com/92536730/228226464-8a305cce-5c1e-476e-ae5a-1e19c3de5254.mp4
+https://github.com/Destination2Unknown/pyQuickStart/assets/92536730/b6756f91-d2f1-474f-9483-1fabc43ff7b0
 
 
 ---
@@ -31,8 +30,7 @@ Excel Logger via Ethernet/IP or OPC-UA.
 ### 3_LiveExcel
 Real-time communication between Excel and a PLC using Ethernet/IP.
 
-https://user-images.githubusercontent.com/92536730/228226742-14b653f5-9503-4d26-8d1d-a47782b13d48.mp4
-
+https://github.com/Destination2Unknown/pyQuickStart/assets/92536730/c84617fa-bdb7-45c7-91c0-1d812ea55b76
 
 
 ---
@@ -44,21 +42,19 @@ A .L5X editor:
 ### 5_TkinterGUI
 A Tkinter GUI to reada/write PLC tags.
 
-
-https://user-images.githubusercontent.com/92536730/228227348-470903c7-7e9b-4dac-a1f3-81247a7dfb28.mp4
-
+https://github.com/Destination2Unknown/pyQuickStart/assets/92536730/49e4d2cd-1273-4fb9-b94c-36515f9af232
 
 
 ---
 ### 6_OCR_GUI
 A Tkinter GUI to read and write PLC tags via EtherNet/IP using Optical Character Recognition (OCR)
 
-https://user-images.githubusercontent.com/92536730/195994268-7b6202b8-454e-4f15-93a4-208836452090.mp4
+https://github.com/Destination2Unknown/pyQuickStart/assets/92536730/e6149ff3-d508-4404-a05d-de67dfa22375
+
 
 ---
 ### 7_WebGUI
 A Flask Web Server to read and write PLC tags via EtherNet/IP.
 
-
-https://user-images.githubusercontent.com/92536730/228227876-78ca59d4-ff95-43a0-a001-4ce3dd5e2258.mp4
+https://github.com/Destination2Unknown/pyQuickStart/assets/92536730/ea3a1a5a-13e2-4c0b-9e59-3f1d43ea2d4e
 
